@@ -1,0 +1,8 @@
+{
+  "schemaType": "NERDLET",
+  "id": "process-tree-nerdlet",
+  "displayName": "Process Tree",
+  "description": "",
+  "actionCategory": "troubleshoot",
+  "entities": [{ "domain": "INFRA", "type": "HOST" }]
+}

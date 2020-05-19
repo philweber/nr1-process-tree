@@ -1,0 +1,28 @@
+{
+  "uuid": "ca3fa44c-79b2-4f52-93f7-e39dd7996f50",
+  "private": true,
+  "name": "nr1-process-tree",
+  "description": "NR1 UI Package process-tree",
+  "version": "0.5.0",
+  "scripts": {
+    "start": "nr1 nerdpack:serve",
+    "test": "exit 0"
+  },
+  "dependencies": {
+    "@newrelic/nr1-community": "^1.0.1",
+    "lodash.get": "^4.4.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-tabulator": "^0.12.7"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not ie < 11",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.5",
+    "@semantic-release/git": "^7.0.18"
+  }
+}

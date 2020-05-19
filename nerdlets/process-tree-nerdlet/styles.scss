@@ -1,0 +1,111 @@
+@import '~@newrelic/nr1-community/dist/index.css';
+
+.column {
+  background-color: white;
+  margin-left: 4px;
+  padding: 6px;
+}
+
+.summary-panel {
+  border-bottom: 2px #eeeeee solid;
+  padding: 4px 8px;
+  height: 100px;
+}
+
+.subtitle {
+  margin-top: -3pt;
+  margin-bottom: 10px;
+  color: #aaaaaa;
+  // font-style: italic;
+}
+
+h1 {
+  margin-bottom: 3pt;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.empty-state-container {
+  height: 100%;
+  background-color: #fff;
+}
+
+[class*='style_empty-state'] {
+  height: calc(100% - (32px));
+}
+
+.process-details {
+  height: 100%;
+  overflow: hidden;
+  padding-right: 8px;
+
+  .chart {
+    height: 180px;
+    width: 100%;
+  }
+
+  & > [class*='wnd-Stack'] {
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+.process-details-main {
+  height: 100%;
+  overflow: scroll;
+}
+
+.primary-grid {
+  height: 100%;
+  overflow: hidden;
+}
+
+[class*='GridItem'].column {
+  height: 100%;
+  overflow: hidden;
+}
+
+.primary-column-main {
+  font-size: 120%;
+  height: 100%;
+  overflow: scroll;
+}
+
+ul.tree, ul.tree ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} 
+ul.tree ul {
+  margin-left: 10px;
+}
+ul.tree li {
+  margin-left: 5px;
+  padding: 0 7px;
+  line-height: 160%;
+  border-left: 1px solid rgb(100,100,100);
+  cursor: pointer;
+}
+li.selected {
+  font-weight: bold;
+}
+li.selected ul{
+  font-weight: normal;
+}
+ul.tree li:last-child {
+  border-left:none;
+}
+ul.tree li:before {
+  position:relative;
+  top:-0.3em;
+  height:1em;
+  width:12px;
+  color:white;
+  border-bottom:1px solid rgb(100,100,100);
+  content:"";
+  display:inline-block;
+  left:-7px;
+}
+ul.tree li:last-child:before {
+  border-left:1px solid rgb(100,100,100);   
+}
