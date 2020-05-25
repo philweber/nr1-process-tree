@@ -20,15 +20,16 @@ This project is distributed under the [Apache 2 license](./LICENSE).
 
 ## Dependencies
 
-Requires [`New Relic Infrastructure`](https://newrelic.com/products/infrastructure).
+Requires [New Relic Infrastructure](https://newrelic.com/products/infrastructure) and the [New Relic One CLI](https://developer.newrelic.com/build-tools/new-relic-one-applications/cli).
 
 ## Getting started
 
-First, ensure that you have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [NPM](https://www.npmjs.com/get-npm) installed. If you're unsure whether you have one or both of them installed, run the following command(s) (If you have them installed these commands will return a version number, if not, the commands won't be recognized):
+First, ensure that you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [npm](https://www.npmjs.com/get-npm), and the [New Relic One CLI](https://developer.newrelic.com/build-tools/new-relic-one-applications/cli) installed. If you're unsure whether you have one or both of them installed, run the following command(s). If you have them installed these commands will return a version number; if not, the commands won't be recognized:
 
 ```bash
 git --version
 npm -v
+nr1 -v
 ```
 
 Next, use the following commands to clone and run this repository:
